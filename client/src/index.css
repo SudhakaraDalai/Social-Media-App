@@ -1,0 +1,15 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');*/
+@font-face {
+  font-family: 'MyWebFont';
+  src: url(../public/assets/SAONARA\ .otf) format('otf'),
+       url(../public/assets/SAONARA-2\ .otf) format('otf')
+}
+
+html,
+body,
+#root,
+.app{
+  height: 100%;
+  width: 100%;
+  font-family: "MyWebFont", sans-serif;
+}
